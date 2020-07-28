@@ -275,13 +275,13 @@ def insert_word(word):
 
 def on_release(key):
     global current_word
-    server = 'words4hacks.database.windows.net'
-    database = 'Words'
-    username = 'thomasparker'
-    password = 'totem55555!'
+    server =
+    database =
+    username = 
+    password = 
     #Server=tcp:words4hacks.database.windows.net,1433;Initial Catalog=Words;Persist Security Info=False;User ID=thomasparker;Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 
-    conn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=words4hacks.database.windows.net;DATABASE=Words;UID=thomasparker;PWD=totem55555!')
+    conn = 
     cursor = conn.cursor()
 
 
